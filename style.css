@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f0f4ff, #d1e9ff);
+    color: #333;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #0a3d62;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #3c6382;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about {
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 400px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 4px 12px;
+
+}
+
+.about h2 {
+    margin-bottom: 0.5rem;
+    color: #0a3d62;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact {
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 550px;
+    max-width: 400px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 4px 10px;
+
+}
+
+.contact h2 {
+    margin-bottom: 0.5rem;
+    color: #0a3d62;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+section p {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 25px;
+    line-height: 1.5em
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 2em;
+    text-align: center;
+    color: #555;
+}
