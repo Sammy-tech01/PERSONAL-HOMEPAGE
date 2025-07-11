@@ -9,6 +9,7 @@ body {
     background: linear-gradient(135deg, #f0f4ff, #d1e9ff);
     color: #333;
     padding: 2rem;
+    overflow-x: hidden;
 }
 
 header {
