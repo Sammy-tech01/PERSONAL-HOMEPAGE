@@ -9,7 +9,7 @@ body {
     background: linear-gradient(135deg, #f0f4ff, #d1e9ff);
     color: #333;
     padding: 2rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -58,7 +58,7 @@ main {
 .contact {
     padding: 1.5rem;
     border-radius: 10px;
-    width: 550px;
+    width: 500px;
     max-width: 400px;
     background-color: #fff;
     align-items: center;
